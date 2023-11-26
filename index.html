@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        select {
+            width: 100px;
+        }
+        #country {
+            width: 130px;
+       }
+       body {
+        background-color: rgb(103, 103, 191);
+        padding: 20px;
+        color: white;
+       }
+       form {
+        background-color: rgb(77, 77, 183);
+       }
+       h3 {
+        text-align: center;
+       }
+       .label {
+        display: block;
+       }
+       input {
+        border: none;
+        color: white;
+       }
+       #email, #bio, #country {
+         color: white;
+       }
+       .fname {
+        margin: 30px;
+       }
+       input, textarea, #country, .first-name {
+        display: block;
+        background-color: rgba(103, 103, 191, 0.544);
+       }
+       fieldset {
+        border: none;
+       }
+       #submit {
+        display: block;
+        border: none;
+       }
+       #male, #female {
+        display: inline-block;
+       }
+       .tr {
+            text-align: center;
+            background-color: lightgrey;
+            color: black;
+        }
+        table {
+            background-color: black;
+            width: 500px;
+        }
+        img {
+            width: 60px;
+        }
+        .infooo {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        img, .ulll {
+            display: inline-block;
+            vertical-align: middle;
+           margin-right: 250px;
+        }
+       
+        
+
+       
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="">
+        <ul class="ulll" style="list-style-type: none;">
+            <li  class="infooo" ><a href="#">Home</a></li>
+            <li  class="infooo" ><a href="#">About</a></li>
+            <li  class="infooo" ><a href="#">Contact Us</a></li>
+        </ul>
+    </header>
+
+
+
+    <form action="">
+        <fieldset>
+            <h3>Please fill out this form with the required information</h3>
+            <label for="title">Title: 
+                <input type="text" id="title" name="title" value="" placeholder="Mr/Mrs/Dr">
+            </label>
+            <label for="name">Name: 
+                <input type="text" name="firstname" id="name" value="" placeholder="firstname" ><br>
+                <input type="text" name="lastname" id="name" value="" placeholder="lastname">
+            </label>
+    
+            <label for="first-name">Enter your first name: 
+               <input type="text" name="first-name" id="first-name" value="" placeholder="first-name">
+           </label>
+            <label for="last-name"> Enter your last name: 
+               <input type="text" name="last-name" id="last-name" value="" placeholder="last-name">
+           </label>
+        </fieldset>
+        
+        <fieldset>
+            <label for="dob">Date of birth: 
+                <input type="date" name="dob" id="dob">
+            </label>
+     
+            <label for="gender">Select your gender: </label>
+              <input type="radio" name="gender" id="male" value="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female">
+              <label for="female">Female</label>
+        </fieldset>
+
+         <fieldset>
+            <label for="country">Nationality: </label>
+         <select name="country" id="country">
+            <option value="">Choose option</option>
+            <option value="1">Togo</option>
+            <option value="2">Nigeria</option>
+            <option value="3">South Africa</option>
+            <option value="4">Ghana</option>
+            <option value="5">Kenya</option>
+         </select>
+         </fieldset>
+
+         <fieldset>
+            <label for="email">Email: 
+                <input type="email" name="email" id="email" value="" placeholder="ex: name@email.com">
+             </label><br>
+    
+             <label for="tel">Phone number: 
+                <input type="text" id="tel" name="tel" value="">
+             </label><br>
+    
+             <label for="address">Address: 
+                <input type="text" name="address" id="address" placeholder="street address">
+                <select name="city" id="city">
+                    <option value="">City</option>
+                    <option value="1">Lagos</option>
+                    <option value="2">Abuja</option>
+                    <option value="3">PH City</option>
+                </select>
+             </label>
+         </fieldset>
+
+         <fieldset>
+            <label for="file">Upload a profile picture: 
+                <input type="file" id="file">
+             </label>
+    
+             <label for="boi">Provide a bio: 
+                <textarea name="bio" id="bio" cols="40" rows="5" placeholder="what do you do for fun...?"></textarea>
+             </label>
+         </fieldset>
+
+         
+         <input type="submit" name="submit" id="submit">
+       
+    </form><br><br><br>
+     
+    <marquee behavior="right" direction="=">
+        welcome to wade x bitcoin website we sell and buy bitcoin and we are fast and reliable
+
+    </marquee>
+</body>
+</html>
+</body>
+</html>
